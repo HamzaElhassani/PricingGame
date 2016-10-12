@@ -3,8 +3,8 @@
 ###################################################################################################
 
 # Last Update: 10/07/16
-setwd("G:/pricing/")
 
+setwd(file.path(getwd(),"02-MODELLING"))
 ###################################################################################################
 ## STEP 00 : LIBRARY                                                                             ##
 ###################################################################################################
@@ -36,8 +36,11 @@ library(mlr)
 
 source("00-Functions.R")
 source("00-DATA_MANIPULATION.R")
+
+setwd(file.path(getwd(),"02-MODELLING"))
+
 source("01-GLM_MODELING.R")
-#source("02-GBM_MODELING.R")
+source("02-GBM_MODELING.R")
 source("03-TWEEDIE_MODELING.R")
 source("04-XGBOOST_MODELING.R")
 source("05-RF_MODELING.R")
