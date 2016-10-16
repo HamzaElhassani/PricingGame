@@ -11,3 +11,4 @@ La première étape du jeu va durer 2 mois (entre le 15 juillet et le 15 septemb
 Dans un second temps, chaque participant recevra la prime de deux de ses concurrents, et aura la possibilité de mettre à jour ses primes, et de renvoyer des primes mises à jour d’ici le 20 Octobre.
 
 
+Yes ça marche !
